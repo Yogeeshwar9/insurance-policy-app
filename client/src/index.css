@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide>div{
+    margin: 0 7px;
+}
+ul {
+    list-style-type: disc;
+  }
+div > ul > li{
+    margin-left: 2rem;
+}
+label{
+    margin-bottom: 5px;
+    color: black;
+}
+input{
+    margin-bottom: 5px;
+    border-radius: 2px;
+    color: black;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
